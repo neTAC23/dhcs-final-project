@@ -1,0 +1,40 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/">בית <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="all-names">כל השמות</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/common">הנפוצים ביותר</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/men-vs-women">גברים לעומת נשים</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/bible">שמות מהתנ"ך לעומת שמות מודרניים</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" routerLink="sing-about">מי שר על מי?</a>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0" role="search">
+      <input class="form-control mr-sm-2" type="text" [(ngModel)]="query" name="query" placeholder="חפש שם..">
+      <button class="btn" routerLink='/search/{{query}}' type="input">
+        Search
+      </button>
+    </form>
+  </div>
+</nav>

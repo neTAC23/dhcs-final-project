@@ -1,0 +1,29 @@
+.btn-sq-sm {
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 10px;
+}
+
+ .letters {
+    /* margin-top: 3%; */
+    margin-left: 20%;
+    margin-right: 20%;
+
+} 
+
+a{
+    font-size: 50px;
+}
+
+.letter-font{
+  position: relative;
+  float: left;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: 36px Arial, sans-serif;
+}
+
+.letter{
+  margin: 10%;  
+}

@@ -1,0 +1,15 @@
+h1{
+     margin-right: 35%; 
+    font-size:60px;
+      background-color: white; 
+      width: fit-content;  
+
+}
+p{
+    text-align: center;
+}
+
+.bg {
+  background: url('names_bag.png') no-repeat center center;
+
+}

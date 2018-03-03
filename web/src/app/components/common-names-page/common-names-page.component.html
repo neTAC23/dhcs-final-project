@@ -1,0 +1,31 @@
+<div class="row">
+<div class="col-md-8">
+<div class="timeline" dir="ltr">
+<div *ngFor="let key of keys;let i =index">
+ <span *ngIf="i%2==0"> 
+   <div class="container left">
+    <div class="content" dir="rtl">
+      <h2>{{key}}</h2>
+      <div *ngFor="let val of names[key]">
+        <a>{{val}}</a>
+      </div>
+    </div>
+   </div>
+ </span>
+  <span *ngIf="i%2!=0"> 
+    <div class="container right">
+    <div class="content" dir="rtl">
+      <h2>{{key}}</h2>
+      <div *ngFor="let val of names[key]">
+        <a>{{val}}</a>
+      </div>
+    </div>
+   </div>
+  </span>
+</div>
+</div>
+</div>
+</div>
+
+
+

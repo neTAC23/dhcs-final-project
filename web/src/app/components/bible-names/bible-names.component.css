@@ -1,0 +1,9 @@
+.imgs>img{
+    margin-bottom:20px; /*to have the space under the image*/
+
+}
+
+.imgs{
+    position: relative;
+    right: 20%;
+}

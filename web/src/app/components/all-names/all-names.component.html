@@ -1,0 +1,11 @@
+<div class="row letters">
+  
+      <div *ngFor="let letter of letters;let i =index">
+          <div class="letter col-md-2">
+        <a routerLink='/all-names/{{i}}' class="btn btn-sq-sm btn-info">
+             <br/> 
+              <span class="letter-font">{{letter}}</span>
+        </a>   
+          </div>
+  </div>
+</div>
